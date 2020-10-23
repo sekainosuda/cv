@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <hr>
+
+    <form action="mailto:yusuke589342759@gmail.com" method="post" enctype="text/plain">
+      <label for="yourName">Your Name:</label>
+      <input type="text" name="yourName" id="yourName">
+      <br>
+      <label for="birthday">Your Birthday</label>
+      <input type="date" name="birthday" id="birthday">
+      <br>
+      <label for="color">Your Favorite Color</label>
+      <input type="color" id="color">
+      <br>
+      <label for="yourEmail">Your Email:</label>
+      <input type="email" name="yourEmail" id="yourEmail">
+      <br>
+      <p>Content of Your Requirement</p>
+      <input type="radio" name="content" id="jobOffer">
+      <label for="jobOffer">Job Offer</label>
+      <input type="radio" name="content" id="question">
+      <label for="question">Question</label>
+      <input type="radio" name="content" id="other" checked>
+      <label for="ohter">Other</label>
+      <br>
+      <p>How did you know me?</p>
+      <input type="checkbox" name="how" id="internet">
+      <label for="internet">Internet</label>
+      <input type="checkbox" name="how" id="magazine">
+      <label for="magazine">Magazine</label>
+      <input type="checkbox" name="how" id="na">
+      <label for="na">Not Applicable</label>
+      <br>
+      <label for="message">Message</label>
+      <br>
+      <textarea name="message" id="message" rows="5" cols="50"></textarea>
+      <br>
+      <input type="submit" value="Send">
+    </form>
+
+  </body>
+</html>
